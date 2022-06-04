@@ -1,0 +1,7 @@
+def doubleit(word):
+    
+    for char in word:
+        print(char*2,end='')
+        
+word = input("Enter the string : ")
+doubleit(word)
